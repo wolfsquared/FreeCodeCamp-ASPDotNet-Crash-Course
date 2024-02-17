@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using FreeCodeCamp_ASPDotNet_Crash_Course;
 
 namespace FreeCodeCamp_ASPDotNet_Crash_Course.Data;
 
@@ -9,4 +10,6 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+
+public DbSet<FreeCodeCamp_ASPDotNet_Crash_Course.Joke> Joke { get; set; } = default!;
 }
