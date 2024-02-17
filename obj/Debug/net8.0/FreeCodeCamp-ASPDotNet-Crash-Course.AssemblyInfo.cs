@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FreeCodeCamp-ASPDotNet-Crash-Course")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+225e2709213cf19af33c9844e0f90f0f68793f7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+016a85264683156ae484f78e18111fbf4a9708b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FreeCodeCamp-ASPDotNet-Crash-Course")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FreeCodeCamp-ASPDotNet-Crash-Course")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

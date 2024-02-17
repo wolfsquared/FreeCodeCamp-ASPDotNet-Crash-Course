@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Home\\Coding\\C# practice\\FreeCodeCamp-ASPDotNet-Crash-Course\\FreeCodeCamp-ASPDotNet-Crash-Course.csproj": {}
+    "G:\\Home\\Coding\\C# practice\\FreeCodeCamp-ASPDotNet-Crash-Course\\FreeCodeCamp-ASPDotNet-Crash-Course.csproj": {}
   },
   "projects": {
-    "g:\\Home\\Coding\\C# practice\\FreeCodeCamp-ASPDotNet-Crash-Course\\FreeCodeCamp-ASPDotNet-Crash-Course.csproj": {
+    "G:\\Home\\Coding\\C# practice\\FreeCodeCamp-ASPDotNet-Crash-Course\\FreeCodeCamp-ASPDotNet-Crash-Course.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Home\\Coding\\C# practice\\FreeCodeCamp-ASPDotNet-Crash-Course\\FreeCodeCamp-ASPDotNet-Crash-Course.csproj",
+        "projectUniqueName": "G:\\Home\\Coding\\C# practice\\FreeCodeCamp-ASPDotNet-Crash-Course\\FreeCodeCamp-ASPDotNet-Crash-Course.csproj",
         "projectName": "FreeCodeCamp-ASPDotNet-Crash-Course",
-        "projectPath": "g:\\Home\\Coding\\C# practice\\FreeCodeCamp-ASPDotNet-Crash-Course\\FreeCodeCamp-ASPDotNet-Crash-Course.csproj",
+        "projectPath": "G:\\Home\\Coding\\C# practice\\FreeCodeCamp-ASPDotNet-Crash-Course\\FreeCodeCamp-ASPDotNet-Crash-Course.csproj",
         "packagesPath": "C:\\Users\\Okamifenrir\\.nuget\\packages\\",
-        "outputPath": "g:\\Home\\Coding\\C# practice\\FreeCodeCamp-ASPDotNet-Crash-Course\\obj\\",
+        "outputPath": "G:\\Home\\Coding\\C# practice\\FreeCodeCamp-ASPDotNet-Crash-Course\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Okamifenrir\\AppData\\Roaming\\NuGet\\NuGet.Config"
