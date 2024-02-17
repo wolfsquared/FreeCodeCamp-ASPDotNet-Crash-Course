@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B83Hs3PaQLr08a+ebJ1Kc1u/upCkNyO+oPQjPo0KS7xMMxsB09gTUjc4zQrA+zYQ5KKDqktXAaQmrk9WUsNRCw==",
+  "dgSpecHash": "p+xMqH3xpeL3q+5CwR0o3c/NsQLbfQO0HdLO/3LQxhA/aqjg96aPCDZk7ouGb/Q0XbkILzRkrSPVMYMJvscNgw==",
   "success": true,
-  "projectFilePath": "G:\\Home\\Coding\\C# practice\\FreeCodeCamp-ASPDotNet-Crash-Course\\FreeCodeCamp-ASPDotNet-Crash-Course.csproj",
+  "projectFilePath": "g:\\Home\\Coding\\C# practice\\FreeCodeCamp-ASPDotNet-Crash-Course\\FreeCodeCamp-ASPDotNet-Crash-Course.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Okamifenrir\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Okamifenrir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.2\\microsoft.aspnetcore.cryptography.internal.8.0.2.nupkg.sha512",

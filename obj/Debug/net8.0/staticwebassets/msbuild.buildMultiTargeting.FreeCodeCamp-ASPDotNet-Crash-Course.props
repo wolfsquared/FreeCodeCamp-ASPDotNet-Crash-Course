@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FreeCodeCamp-ASPDotNet-Crash-Course.props" />
+</Project>
