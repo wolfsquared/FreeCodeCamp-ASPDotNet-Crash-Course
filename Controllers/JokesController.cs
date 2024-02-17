@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FreeCodeCamp_ASPDotNet_Crash_Course;
 using FreeCodeCamp_ASPDotNet_Crash_Course.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FreeCodeCamp_ASPDotNet_Crash_Course.Controllers
 {
@@ -24,7 +25,16 @@ namespace FreeCodeCamp_ASPDotNet_Crash_Course.Controllers
         {
             return View(await _context.Joke.ToListAsync());
         }
-
+        // GET: jokes/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            return View();
+        }
+        // POST: jokes/ShowSearchResults
+        public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
+        {
+            return View("Index",await _context.Joke.Where(j => j.JokeQuestion.Contains(SearchPhrase)).ToListAsync());
+        }
         // GET: Jokes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -44,6 +54,7 @@ namespace FreeCodeCamp_ASPDotNet_Crash_Course.Controllers
         }
 
         // GET: Jokes/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -54,6 +65,7 @@ namespace FreeCodeCamp_ASPDotNet_Crash_Course.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Create([Bind("Id,JokeQuestion,JokeAnswer")] Joke joke)
         {
             if (ModelState.IsValid)
@@ -66,6 +78,7 @@ namespace FreeCodeCamp_ASPDotNet_Crash_Course.Controllers
         }
 
         // GET: Jokes/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -86,6 +99,7 @@ namespace FreeCodeCamp_ASPDotNet_Crash_Course.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Edit(int id, [Bind("Id,JokeQuestion,JokeAnswer")] Joke joke)
         {
             if (id != joke.Id)
@@ -117,6 +131,7 @@ namespace FreeCodeCamp_ASPDotNet_Crash_Course.Controllers
         }
 
         // GET: Jokes/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -137,6 +152,7 @@ namespace FreeCodeCamp_ASPDotNet_Crash_Course.Controllers
         // POST: Jokes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var joke = await _context.Joke.FindAsync(id);
